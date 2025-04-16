@@ -45,7 +45,7 @@ Vou atualizar a seção de Configuração do Ambiente para incluir o seed:
 
 1. Clone o repositório
 ```bash
-  git clone https://github.com/seu-usuario/reservas-salas-api.git
+  git clone https://github.com/VictorRodriguesAlves/booking-system.git
 ```
 
 2. Instale as dependências
