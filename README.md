@@ -5,8 +5,8 @@
 ### Sistema de gerenciamento de reservas de salas de reunião
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![PHP Version](https://img.shields.io/badge/php-%5E8.1-blue)
-![Laravel Version](https://img.shields.io/badge/laravel-%5E10.0-red)
+![PHP Version](https://img.shields.io/badge/php-%5E8.2-blue)
+![Laravel Version](https://img.shields.io/badge/laravel-%5E12.0-red)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 </div>
