@@ -13,7 +13,7 @@ class ResourceSeeder extends Seeder
      */
     public function run(): void
     {
-// Lista de recursos básica
+
         $resources = [
             'Projetor',
             'TV Smart',
@@ -25,7 +25,6 @@ class ResourceSeeder extends Seeder
             'Webcam'
         ];
 
-        // Criar os recursos
         foreach ($resources as $resourceName) {
             Resource::create([
                 'name' => $resourceName

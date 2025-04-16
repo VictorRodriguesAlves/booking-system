@@ -12,7 +12,6 @@ class RoomSeeder extends Seeder
      */
     public function run(): void
     {
-        // Lista de salas com suas características
         $rooms = [
             [
                 'name' => 'Sala Executiva',
@@ -84,7 +83,6 @@ class RoomSeeder extends Seeder
                 'requires_approval' => false,
                 'active' => true,
             ],
-            // Exemplo de sala inativa (em manutenção ou reforma)
             [
                 'name' => 'Sala de Reunião C3',
                 'location' => '3º Andar',
@@ -94,7 +92,6 @@ class RoomSeeder extends Seeder
             ]
         ];
 
-        // Criar as salas
         foreach ($rooms as $room) {
             Room::create($room);
         }

@@ -28,7 +28,6 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        // Criar usuário admin padrão
         User::create([
             'name' => 'Administrador',
             'email' => 'admin@empresa.com',
@@ -37,10 +36,8 @@ class UserSeeder extends Seeder
             'department' => 'TI'
         ]);
 
-        // Criar alguns administradores adicionais
         $this->createAdmins();
 
-        // Criar usuários regulares
         $this->createRegularUsers();
     }
 
@@ -49,7 +46,6 @@ class UserSeeder extends Seeder
      */
     private function createAdmins(): void
     {
-        // Lista de admins com seus departamentos
         $admins = [
             [
                 'name' => 'Gerente TI',
@@ -84,13 +80,12 @@ class UserSeeder extends Seeder
      */
     private function createRegularUsers(): void
     {
-        // Lista de usuários regulares com seus departamentos
         $regularUsers = [
             [
                 'name' => 'João Silva',
                 'email' => 'joao.silva@empresa.com',
                 'department' => 'TI',
-                'password' => 'password123' // Senha padrão para facilitar testes
+                'password' => 'password123'
             ],
             [
                 'name' => 'Maria Santos',
